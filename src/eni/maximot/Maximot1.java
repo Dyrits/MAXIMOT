@@ -17,9 +17,9 @@ public class Maximot1 {
         if (args.length > 0) { sourceFile = args[0]; }
         Scanner console = new Scanner(System.in);
         char[] letters = getRandomWord();
-        String word = initialize(letters);
+        String word = initialize(console, letters);
         while (!isInFile(word) || !checkLetters(letters, word)) {
-            if (word.equals("SHUFFLE")) { word = initialize(letters); }
+            if (word.equals("SHUFFLE")) { word = initialize(console, letters); }
             if (checkLetters(letters, word)) { System.out.println("Les lettres et la longueur du mot sont bonnes, mais celui-ci est invalide"); }
             else { System.out.println("Le mot " + word + " n'utilise pas exactement les mêmes lettres!"); }
             System.out.println("Essayez autre chose!");
@@ -31,18 +31,19 @@ public class Maximot1 {
 
     /**
      * Mélange les lettres et affiche sous forme de chaine de caractères les caractères d'un tableau de caractères entré en paramètre.
-     * Obtient et retourne la saisie de l'utilisateur.
+     * Obtient et retourne la saisie de l'utilisateur via le scanner entré en paramètre.
      *
+     * @param scanner >> Scanner actif.
      * @param letters >> Tableau de caractères à mélanger et afficher.
      * @return >> Chaine de caractère correspondant à la saisie de l'utilisateur.
      */
-    private static String initialize(char[] letters) {
+    private static String initialize(Scanner scanner, char[] letters) {
         shuffle(letters);
         System.out.println("Les lettres ont été mélangées. Formez un mot à partir des lettres suivantes:");
         System.out.println("(Note: Vous pouvez taper SHUFFLE pour remélanger les lettres.)");
         display(letters);
-        String word = new Scanner(System.in).nextLine().toUpperCase();
-        if (word.equals("SHUFFLE")) { initialize(letters); }
+        String word = scanner.nextLine().toUpperCase();
+        if (word.equals("SHUFFLE")) { initialize(scanner, letters); }
         return word;
     }
 
