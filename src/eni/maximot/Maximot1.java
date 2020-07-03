@@ -11,7 +11,7 @@ public class Maximot1 {
 
     /**
      *
-     * @param args >> args[0]: Chemin vers le fichier source.
+     * @param args args[0]: Chemin vers le fichier source.
      */
     public static void main(String[] args) {
         if (args.length > 0) { sourceFile = args[0]; }
@@ -33,9 +33,9 @@ public class Maximot1 {
      * Mélange les lettres et affiche sous forme de chaine de caractères les caractères d'un tableau de caractères entré en paramètre.
      * Obtient et retourne la saisie de l'utilisateur via le scanner entré en paramètre.
      *
-     * @param scanner >> Scanner actif.
-     * @param letters >> Tableau de caractères à mélanger et afficher.
-     * @return >> Chaine de caractère correspondant à la saisie de l'utilisateur.
+     * @param scanner Scanner actif.
+     * @param letters Tableau de caractères à mélanger et afficher.
+     * @return Chaine de caractère correspondant à la saisie de l'utilisateur.
      */
     private static String initialize(Scanner scanner, char[] letters) {
         shuffle(letters);
@@ -50,8 +50,8 @@ public class Maximot1 {
     /**
      * Retourne une ligne aléatoire provenant d'un fichier source entré en paramètre.
      *
-     * @param source >> Chemin vers le fichier source.
-     * @return >> Tableau de caractères d'une ligne sélectionné aléatoirement au sein du fichier source.
+     * @param source Chemin vers le fichier source.
+     * @return Tableau de caractères d'une ligne sélectionné aléatoirement au sein du fichier source.
      */
     public static char[] getRandomWord(String source) {
         Scanner dictionary = readInputFile(source);
@@ -71,7 +71,7 @@ public class Maximot1 {
     /**
      * Mélange les lettres d'un tableau de caractères entré en paramètre.
      *
-     * @param word >> Tableau de caractères dont les lettres devront être mélangées.
+     * @param word Tableau de caractères dont les lettres devront être mélangées.
      */
     public static void shuffle(char[] word) {
         for (int index = 0; index < word.length; index++) {
@@ -83,9 +83,9 @@ public class Maximot1 {
     /**
      * Échange la position de deux lettres au sein d'un tableau de caractères entré en paramètre.
      *
-     * @param word      >> Tableau de caractères dont les lettres doivent être échangées.
-     * @param index     >> Index de la première lettre à échanger au sein du tableau.
-     * @param swapIndex >> Index de la seconde lettre à échanger au sein du tableau.
+     * @param word Tableau de caractères dont les lettres doivent être échangées.
+     * @param index Index de la première lettre à échanger au sein du tableau.
+     * @param swapIndex Index de la seconde lettre à échanger au sein du tableau.
      */
     public static void swapLetter(char[] word, int index, int swapIndex) {
         char tempLetter = word[index];
@@ -96,7 +96,7 @@ public class Maximot1 {
     /**
      * Affiche dans la console un tableau de caractères entré en paramètre sous forme de chaine de caractères.
      *
-     * @param word >> Tableau de caractères à afficher.
+     * @param word Tableau de caractères à afficher.
      */
     public static void display(char[] word) {
         System.out.println(new String(word));
@@ -106,9 +106,9 @@ public class Maximot1 {
      * Compare la longueur et les lettres entre un tableau de caractères et une chaine de caractères entrés en paramètres.
      * Retourne "true" si ces éléments sont les mêmes, ou "false" si ce n'est pas le cas.
      *
-     * @param letters >> Tableau de caractères contenant les lettres du mot.
-     * @param word >> Chaine de caractères dont les lettres sont à à vérifier.
-     * @return >> Booléen faisant état de la similitude (ou non) entre les lettres et la longueur des paramètres.
+     * @param letters Tableau de caractères contenant les lettres du mot.
+     * @param word Chaine de caractères dont les lettres sont à à vérifier.
+     * @return Booléen faisant état de la similitude (ou non) entre les lettres et la longueur des paramètres.
      */
     public static boolean checkLetters(char[] letters, String word) {
         int length = letters.length;
@@ -140,9 +140,9 @@ public class Maximot1 {
      * Retourne "true" si une chaine de caractères entrée en paramètre correspond à une ligne du fichier.
      * Retourne "false" si ce n'est pas le cas.
      *
-     * @param line >> Ligne à trouver dans le fichier.
-     * @param source >> Chemin vers le fichier source.
-     * @return >> Booléen attestant ou non de la présence de la ligne dans le fichier source.
+     * @param line Ligne à trouver dans le fichier.
+     * @param source Chemin vers le fichier source.
+     * @return Booléen attestant ou non de la présence de la ligne dans le fichier source.
      */
     public static boolean isInFile(String line, String source)  {
         Scanner dictionary = readInputFile(source);
@@ -157,14 +157,14 @@ public class Maximot1 {
     }
 
     public static boolean isInFile(String line) {
-        return isInFile(line, sourceFile);
+        return isInFile(line, sourceFile); // Fichier par défaut.
     }
 
     /**
      * Retourne le nombre de lignes non lues présentes au sein d'un scanner entré en paramètre.
      *
-     * @param scanner >> Scanner actif.
-     * @return >> Nombre de lignes non lues du scanner actif.
+     * @param scanner Scanner actif.
+     * @return Nombre de lignes non lues du scanner actif.
      */
     public static int getLinesCount(Scanner scanner) {
         int lines = 0;
@@ -179,8 +179,8 @@ public class Maximot1 {
     /**
      * Retourne, tout en gérant les erreurs, un objet de type Scanner permettant la lecture du fichier source entré en paramètre.
      *
-     * @param source >> Chemin vers le fichier source.
-     * @return >> Scanner permettant la lecture du fichier source.
+     * @param source Chemin vers le fichier source.
+     * @return Scanner permettant la lecture du fichier source.
      */
     public static Scanner readInputFile(String source) {
         FileInputStream file;
