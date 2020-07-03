@@ -41,7 +41,9 @@ public class Maximot1 {
         System.out.println("Les lettres ont été mélangées. Formez un mot à partir des lettres suivantes:");
         System.out.println("(Note: Vous pouvez taper SHUFFLE pour remélanger les lettres.)");
         display(letters);
-        return new Scanner(System.in).nextLine().toUpperCase();
+        String word = new Scanner(System.in).nextLine().toUpperCase();
+        if (word.equals("SHUFFLE")) { initialize(letters); }
+        return word;
     }
 
     /**
@@ -180,10 +182,9 @@ public class Maximot1 {
      * @return >> Scanner permettant la lecture du fichier source.
      */
     public static Scanner readInputFile(String source) {
-        FileInputStream file = null;
-        try {
-            file = new FileInputStream(source);
-        } catch (IOException exception) {
+        FileInputStream file;
+        try { file = new FileInputStream(source); }
+        catch (IOException exception) {
             System.err.println("Une erreur est survenue lors de la lecture du fichier.");
             System.out.println("Entrez le chemin vers un fichier valide: ");
             // L'utilisateur peut entrer un chemin vers un autre fichier s'il y a une erreur:
