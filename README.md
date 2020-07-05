@@ -4,7 +4,7 @@
 
 ### Cursus
 ENI | La Programmation Orientée Objet (POO) avec Java   
-~ [Module 1 - Les bases du Java]() 
+~ [Module 1 - Les bases du Java](https://github.com/Dyrits/MAXIMOT-1/blob/master/Module%2001%20-%20Enonc%C3%A9%20TP%20-%20Maximot%201.pdf) 
 
 ### Énoncé (par l'ENI)
 L'objectif est de créer un jeu de lettres : le joueur voit un tirage de lettres et doit trouver un
