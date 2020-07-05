@@ -1,33 +1,42 @@
 # Maximot 1
 
-### Related course
-ENI | LA PROGRAMMATION ORIENTÉE OBJET AVEC JAVA: Module 1 - Les bases du Java  
+## A propos de ce projet
 
-### Description of the project by WEBSITE
+### Cursus
+ENI | La Programmation Orientée Objet (POO) avec Java   
+~ [Module 1 - Les bases du Java]() 
+
+### Énoncé (par l'ENI)
 L'objectif est de créer un jeu de lettres : le joueur voit un tirage de lettres et doit trouver un
-mot le plus long possible en utilisant ces lettres. Voici comment se déroule l algorithme du
-programme:
-- Un mot est tiré au sort dans le dictionnaire;
-- Les lettres le constituant sont mélangées aléatoirement;
-- Le tirage est affiché au joueur;
-- Le joueur saisit sa proposition;
-- La proposition est vérifiée:
-    - uniquement les lettres tirées ont été utilisées;
-    - mot présent dans le dictionnaire;
+mot le plus long possible en utilisant ces lettres. Voici comment se déroule l'algorithme du programme :
+- Un mot est tiré au sort dans le dictionnaire ;
+- Les lettres le constituant sont mélangées aléatoirement ;
+- Le tirage est affiché au joueur ;
+- Le joueur saisit sa proposition ;
+- La proposition est vérifiée :
+    - uniquement les lettres tirées ont été utilisées ;
+    - mot présent dans le dictionnaire ;
 - Le mot tiré au sort est dévoilé au joueur.
 
-### Technologies | Libraries | Frameworks | Tools  
+### Technologie principale 
 - Java
 
-### Details | Comments
-- This project has been made from scratch following specific instructions. 
+### Détails | Commentaires
+Ce projet a été construit à partir de zéro en suivant des instructions spécifiques.  
+Le fichier dictionnaire.txt a été fourni avec l'énoncé. Il est cependant possible d'entrer un chemin vers un autre fichier en tant qu'argument du programme.
 
+### Mises à jour
 
-### Status
-Completed
+<details markdown="block">
+<summary>V1.01</summary>  
 
-#### Last update
-03/07/2020
+- La possibilité de lire un fichier de mots externe (en entrant son chemin en tant qu'argument au programme) a été ajoutée.
 
-#### Last update (README.md)
-03/07/2020
+</details>
+
+### Statut
+V1.01 - Terminé
+
+#### Dernière mise à jour
+05/07/2020  
+(README | 05/07/2020)

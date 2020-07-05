@@ -54,8 +54,9 @@ public class Maximot1 {
      * @return Tableau de caractères d'une ligne sélectionné aléatoirement au sein du fichier source.
      */
     public static char[] getRandomWord(String source) {
-        Scanner dictionary = readInputFile(source);
         int randomLine = random.nextInt(getLinesCount(readInputFile(source)));
+        // Le fichier source a été mis à jour (en cas d'invalidité) par le précédent appel à "readInputFile()".
+        Scanner dictionary = readInputFile();
         for (int line = 1; line < randomLine; line++) {
             dictionary.nextLine();
         }
@@ -178,6 +179,7 @@ public class Maximot1 {
 
     /**
      * Retourne, tout en gérant les erreurs, un objet de type Scanner permettant la lecture du fichier source entré en paramètre.
+     * Le fichier source est mis à jour manuellement si celui-ci est invalide.
      *
      * @param source Chemin vers le fichier source.
      * @return Scanner permettant la lecture du fichier source.
