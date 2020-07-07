@@ -35,7 +35,7 @@ Le fichier dictionnaire.txt a été fourni avec l'énoncé. Il est cependant pos
 </details>
 
 ### Statut
-V1.01 - Terminé
+V1.01 - Terminée
 
 #### Dernière mise à jour
 05/07/2020  
