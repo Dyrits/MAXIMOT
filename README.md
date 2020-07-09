@@ -17,8 +17,8 @@ Ce projet a été construit à partir de zéro en suivant des instructions spéc
 Le fichier dictionnaire.txt a été fourni avec l'énoncé. Il est cependant possible d'entrer un chemin vers un autre fichier en tant qu'argument du programme.
 
 ### Statut
-Maximot 1 - Terminé (V1.01) | [`Maximot-1`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-1)  
-Maximot 2 - Terminé (V2.0)
+Maximot 1 - Terminé (V1.1.01) | [`Maximot-1`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-1)  
+Maximot 2 - Terminé (V1.2.0)
 
 #### Dernière mise à jour
 09/07/2020  
