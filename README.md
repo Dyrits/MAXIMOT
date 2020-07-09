@@ -4,7 +4,7 @@
 
 ### Cursus
 ENI | La Programmation Orientée Objet (POO) avec Java   
-~ [Module 1 - Les bases du Java](https://github.com/Dyrits/MAXIMOT-1/blob/master/Module%2001%20-%20Enonc%C3%A9%20TP%20-%20Maximot%201.pdf) 
+~ [Module 1 - Les bases du Java](https://github.com/Dyrits/MAXIMOT/blob/Maximot-2/Module%2009%20-%20Enonc%C3%A9%20TP01%20-%20Maximot%202.pdf) 
 
 ### Énoncé (par l'ENI)
 L'objectif est de créer un jeu de lettres : le joueur voit un tirage de lettres et doit trouver un
@@ -35,8 +35,9 @@ Le fichier dictionnaire.txt a été fourni avec l'énoncé. Il est cependant pos
 </details>
 
 ### Statut
-V1.01 - Terminée
+Maximot 1 - Terminé (V1.01)  
+Maximot 2 - Terminé (V2.0) [Branche `Maximot-2`]
 
 #### Dernière mise à jour
 05/07/2020  
-(README | 05/07/2020)
+(README | 09/07/2020)
