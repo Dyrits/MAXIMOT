@@ -5,6 +5,7 @@ import java.util.*;
 public class Drawing {
     private String word;
     private List<Character> letters;
+    private List<String> anagrams;
 
     /**
      * Constructeur.
@@ -12,6 +13,7 @@ public class Drawing {
     public Drawing() {
         setWord();
         setLetters();
+        setAnagrams();
     }
 
     /**
@@ -46,7 +48,7 @@ public class Drawing {
     // GETTERS & SETTERS
 
     public void setWord() {
-        this.word = Dictionnary.getRandomWord().toUpperCase();
+        this.word = Dictionnary.getRandomWord();
     }
 
     public String getWord() {
@@ -67,5 +69,22 @@ public class Drawing {
     public int getLength() {
         return this.word.length();
     }
+
+    /**
+     * Assigne l'ensemble des anagrammes du mot à une ArrayList.
+     */
+    public void setAnagrams() {
+        this.anagrams = new ArrayList<>();
+        for (String word : Dictionnary.getWords()) {
+            if (checkLetters(word)) {
+                anagrams.add(word);
+            }
+        }
+    }
+
+    public List<String> getAnagrams() {
+        return this.anagrams;
+    }
+
 
 }

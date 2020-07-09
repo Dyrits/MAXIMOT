@@ -7,6 +7,7 @@ public class Maximot {
      */
     public static void main(String[] args) {
         if (args.length > 0) { Dictionnary.sourceFile = args[0]; }
+        Dictionnary.initialize();
         Drawing word = new Drawing();
         String guess = initialize(word);
         while (!Dictionnary.isInFile(guess) || !word.checkLetters(guess)) {
@@ -20,6 +21,10 @@ public class Maximot {
             guess = Tools.console.nextLine().toUpperCase();
         }
         System.out.println("Bravo, " + guess + " est un mot valide!");
+        System.out.println("Voici une liste complète des possibilités:");
+        for (String anagram : word.getAnagrams()) {
+            System.out.println(anagram);
+        }
     }
 
     /**
