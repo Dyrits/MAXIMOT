@@ -18,7 +18,8 @@ Le fichier dictionnaire.txt a été fourni avec l'énoncé. Il est cependant pos
 
 ### Statut
 Maximot 1 - Terminé (V1.1.01) | [`Maximot-1`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-1)  
-Maximot 2 - Terminé (V1.2.0)
+Maximot 2 - Terminé (V1.2.0)  
+Maximot 3 - Terminé (V1.3.0) | [`Maximot-1`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-3)  
 
 #### Dernière mise à jour
 09/07/2020  
