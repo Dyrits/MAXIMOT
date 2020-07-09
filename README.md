@@ -36,7 +36,7 @@ Le fichier dictionnaire.txt a été fourni avec l'énoncé. Il est cependant pos
 
 ### Statut
 Maximot 1 - Terminé (V1.01)  
-Maximot 2 - Terminé (V2.0) [Branche `Maximot-2`]
+Maximot 2 - Terminé (V2.0) [Branche `Maximot-2`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-2)
 
 #### Dernière mise à jour
 05/07/2020  
