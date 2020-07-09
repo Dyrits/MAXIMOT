@@ -28,7 +28,7 @@ Le fichier dictionnaire.txt a été fourni avec l'énoncé. Il est cependant pos
 ### Mises à jour
 
 <details markdown="block">
-<summary>V1.01</summary>  
+<summary>V1.1.01</summary>  
 
 - La possibilité de lire un fichier de mots externe (en entrant son chemin en tant qu'argument au programme) a été ajoutée.
 
