@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Maximot1 {
+public class Maximot {
     protected static Random random = new Random();
     protected static String sourceFile = "./dictionnaire.txt";
 
