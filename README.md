@@ -4,7 +4,7 @@
 
 ### Cursus
 ENI | La Programmation Orientée Objet (POO) avec Java   
-~ [Module 9 - La généricité]() 
+~ [Module 9 - La généricité](https://github.com/Dyrits/MAXIMOT/blob/Maximot-3/Module%2009%20-%20Enonc%C3%A9%20TP02%20-%20Maximot%203.pdf) 
 
 ### Énoncé (par l'ENI)
 L’objectif est d’améliorer le projet Maximot en ajoutant tous les mots possibles triés par nombre de lettres.
