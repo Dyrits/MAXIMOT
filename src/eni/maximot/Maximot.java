@@ -10,13 +10,12 @@ public class Maximot {
         Dictionnary.initialize();
         Drawing word = new Drawing();
         String guess = initialize(word);
-        while (!Dictionnary.isInFile(guess) || !word.checkLetters(guess)) {
+        while (!word.getAnagrams().contains(guess)) {
             if (guess.equals("#SHUFFLE")) {
                 word.setLetters();
                 guess = initialize(word);
             }
-            if (word.checkLetters(guess)) { System.out.println("Les lettres et la longueur du mot sont bonnes, mais celui-ci est invalide"); }
-            else { System.out.println("Le mot " + guess + " n'utilise pas exactement les mêmes lettres!"); }
+            if (!word.getAnagrams().contains(guess)) {System.out.println("Le mot " + guess + " est incorrect!"); }
             System.out.println("Essayez autre chose!");
             guess = Tools.console.nextLine().toUpperCase();
         }
