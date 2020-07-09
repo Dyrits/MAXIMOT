@@ -1,10 +1,10 @@
-# Maximot
+# Maximot 2
 
 ## A propos de ce projet
 
 ### Cursus
 ENI | La Programmation Orientée Objet (POO) avec Java   
-~ [Module 9 - La généricité]() 
+~ [Module 9 - La généricité](https://github.com/Dyrits/MAXIMOT-1/blob/Maximot-2/Module%2009%20-%20Enonc%C3%A9%20TP01%20-%20Maximot%202.pdf) 
 
 ### Énoncé (par l'ENI)
 Avant de démarrer ce TP, il convient d’avoir suivi les vidéos des modules 1 à 9 jusqu’à la première diapositive TP. Son objectif est de mettre en œuvre des classes génériques offertes par le langage Java et de réaliser le même projet que le TP Maximot, mais cette fois-ci en utilisant la programmation orientée objet.
