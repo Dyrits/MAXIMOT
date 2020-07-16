@@ -40,10 +40,10 @@ public class Maximot {
     private static String initialize(Scanner scanner, char[] letters) {
         shuffle(letters);
         System.out.println("Les lettres ont été mélangées. Formez un mot à partir des lettres suivantes:");
-        System.out.println("(Note: Vous pouvez taper SHUFFLE pour remélanger les lettres.)");
-        display(letters);
+        System.out.println("(Note: Vous pouvez taper #SHUFFLE pour remélanger les lettres.)");
+        System.out.println(letters);
         String word = scanner.nextLine().toUpperCase();
-        if (word.equals("SHUFFLE")) { initialize(scanner, letters); }
+        if (word.equals("#SHUFFLE")) { initialize(scanner, letters); }
         return word;
     }
 
@@ -92,15 +92,6 @@ public class Maximot {
         char tempLetter = word[index];
         word[index] = word[swapIndex];
         word[swapIndex] = tempLetter;
-    }
-
-    /**
-     * Affiche dans la console un tableau de caractères entré en paramètre sous forme de chaine de caractères.
-     *
-     * @param word Tableau de caractères à afficher.
-     */
-    public static void display(char[] word) {
-        System.out.println(new String(word));
     }
 
     /**
