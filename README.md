@@ -40,5 +40,5 @@ Maximot 2 - Terminé (V1.2.0) | [`Maximot-2`](https://github.com/Dyrits/MAXIMOT/
 Maximot 3 - Terminé (V1.3.0) | [`Maximot-3`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-3)
 
 #### Dernière mise à jour
-05/07/2020  
-(README | 09/07/2020)
+016/07/2020  
+(README | 16/07/2020)
