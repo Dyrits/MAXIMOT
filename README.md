@@ -1,1 +1,48 @@
-IyBNYXhpbW90CgpBIEphdmEgd29yZCBnYW1lOiBmcm9tIGEgcmFuZG9tIGRyYXcgb2YgbGV0dGVycywgZmluZCB0aGUgbG9uZ2VzdCBwb3NzaWJsZSB3b3JkLgoKIyMgQWJvdXQgVGhlIFByb2plY3QKCkEgY29uc29sZSBnYW1lIGJ1aWx0IGZyb20gc2NyYXRjaCBhcyBhIHByb2plY3QgZm9yIHRoZSBFTkkgY291cnNlICJMYSBQcm9ncmFtbWF0aW9uIE9yaWVudMOpZSBPYmpldCAoUE9PKSBhdmVjIEphdmEiIChNb2R1bGUgMSAtIExlcyBiYXNlcyBkdSBKYXZhKS4gVGhlIG9yaWdpbmFsIGFzc2lnbm1lbnQgKGluIEZyZW5jaCkgaXMgYXZhaWxhYmxlIGluIHRoZSByZXBvc2l0b3J5OiBbTW9kdWxlIDAxIC0gRW5vbmPDqSBUUCAtIE1heGltb3QgMS5wZGZdKGh0dHBzOi8vZ2l0aHViLmNvbS9EeXJpdHMvTUFYSU1PVC9ibG9iL01heGltb3QtMS9Nb2R1bGUlMjAwMSUyMC0lMjBFbm9uYyVDMyVBOSUyMFRQJTIwLSUyME1heGltb3QlMjAxLnBkZikuCgpIb3cgYSByb3VuZCB3b3JrcywgZnJvbSB0aGUgY291cnNlIGFzc2lnbm1lbnQ6CgotIEEgd29yZCBpcyBkcmF3biBhdCByYW5kb20gZnJvbSB0aGUgZGljdGlvbmFyeTsKLSBJdHMgbGV0dGVycyBhcmUgc2h1ZmZsZWQgcmFuZG9tbHkgYW5kIHNob3duIHRvIHRoZSBwbGF5ZXI7Ci0gVGhlIHBsYXllciBlbnRlcnMgYSBwcm9wb3NhbDsKLSBUaGUgcHJvcG9zYWwgaXMgY2hlY2tlZDogb25seSB0aGUgZHJhd24gbGV0dGVycyBtYXkgYmUgdXNlZCwgYW5kIHRoZSB3b3JkIG11c3QgZXhpc3QgaW4gdGhlIGRpY3Rpb25hcnk7Ci0gVGhlIHdvcmQgZHJhd24gYXQgcmFuZG9tIGlzIHRoZW4gcmV2ZWFsZWQgdG8gdGhlIHBsYXllci4KClRoZSBgZGljdGlvbm5haXJlLnR4dGAgZGljdGlvbmFyeSBmaWxlIHdhcyBwcm92aWRlZCB3aXRoIHRoZSBhc3NpZ25tZW50LiBBIHBhdGggdG8gYW5vdGhlciB3b3JkIGZpbGUgY2FuIGJlIHBhc3NlZCBhcyBhIHByb2dyYW0gYXJndW1lbnQgdG8gdXNlIGEgZGlmZmVyZW50IGRpY3Rpb25hcnkuCgojIyMgVmVyc2lvbnMKCkZyb20gdGhlIGF1dGhvcidzIG5vdGVzOgoKLSBNYXhpbW90IDEgLSBDb21wbGV0ZWQgKFYxLjEuMDEpOiB0aGlzIGJyYW5jaC4gVjEuMS4wMSBhZGRlZCBzdXBwb3J0IGZvciByZWFkaW5nIGFuIGV4dGVybmFsIHdvcmQgZmlsZSwgcGFzc2VkIGFzIGEgcHJvZ3JhbSBhcmd1bWVudC4KLSBNYXhpbW90IDIgLSBDb21wbGV0ZWQgKFYxLjIuMCk6IFtgTWF4aW1vdC0yYF0oaHR0cHM6Ly9naXRodWIuY29tL0R5cml0cy9NQVhJTU9UL3RyZWUvTWF4aW1vdC0yKSBicmFuY2guCi0gTWF4aW1vdCAzIC0gQ29tcGxldGVkIChWMS4zLjApOiBbYE1heGltb3QtM2BdKGh0dHBzOi8vZ2l0aHViLmNvbS9EeXJpdHMvTUFYSU1PVC90cmVlL01heGltb3QtMykgYnJhbmNoLgoKIyMgQnVpbHQgV2l0aAoKLSBKYXZhCgojIyBHZXR0aW5nIFN0YXJ0ZWQKCiMjIyBQcmVyZXF1aXNpdGVzCgotIEEgSmF2YSBEZXZlbG9wbWVudCBLaXQgKEpESykKCiMjIyBSdW5uaW5nIHRoZSBnYW1lCgotIENvbXBpbGUgdGhlIHNvdXJjZXMgaW4gdGhlIGBzcmMvYCBkaXJlY3RvcnkgYW5kIHJ1biB0aGUgcHJvZ3JhbS4gVGhlIG1haW4gY2xhc3MgaXMgbm90IGRvY3VtZW50ZWQgaW4gdGhlIHJlcG9zaXRvcnkuCi0gT3B0aW9uYWxseSwgcGFzcyB0aGUgcGF0aCB0byBhIHdvcmQgZmlsZSBhcyBhbiBhcmd1bWVudCB0byByZXBsYWNlIHRoZSBkZWZhdWx0IGBkaWN0aW9ubmFpcmUudHh0YCBkaWN0aW9uYXJ5LgoKIyMgTGljZW5zZQoKTm8gbGljZW5zZSBmaWxlIGlzIHByZXNlbnQgaW4gdGhpcyByZXBvc2l0b3J5LgoKIyMgQ29udGFjdAoKRHlsYW4gSi4gR2Vycml0cyAtIFtHaXRIdWJdKGh0dHBzOi8vZ2l0aHViLmNvbS9EeXJpdHMpCg==
+# Maximot
+
+A Java word game: from a random draw of letters, find the longest possible word.
+
+## About The Project
+
+A console game built from scratch as a project for the ENI course "La Programmation Orientée Objet (POO) avec Java" (Module 1 - Les bases du Java). The original assignment (in French) is available in the repository: [Module 01 - Enoncé TP - Maximot 1.pdf](https://github.com/Dyrits/MAXIMOT/blob/Maximot-1/Module%2001%20-%20Enonc%C3%A9%20TP%20-%20Maximot%201.pdf).
+
+How a round works, from the course assignment:
+
+- A word is drawn at random from the dictionary;
+- Its letters are shuffled randomly and shown to the player;
+- The player enters a proposal;
+- The proposal is checked: only the drawn letters may be used, and the word must exist in the dictionary;
+- The word drawn at random is then revealed to the player.
+
+The `dictionnaire.txt` dictionary file was provided with the assignment. A path to another word file can be passed as a program argument to use a different dictionary.
+
+### Versions
+
+From the author's notes:
+
+- Maximot 1 - Completed (V1.1.01): this branch. V1.1.01 added support for reading an external word file, passed as a program argument.
+- Maximot 2 - Completed (V1.2.0): [`Maximot-2`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-2) branch.
+- Maximot 3 - Completed (V1.3.0): [`Maximot-3`](https://github.com/Dyrits/MAXIMOT/tree/Maximot-3) branch.
+
+## Built With
+
+- Java
+
+## Getting Started
+
+### Prerequisites
+
+- A Java Development Kit (JDK)
+
+### Running the game
+
+- Compile the sources in the `src/` directory and run the program. The main class is not documented in the repository.
+- Optionally, pass the path to a word file as an argument to replace the default `dictionnaire.txt` dictionary.
+
+## License
+
+No license file is present in this repository.
+
+## Contact
+
+Dylan J. Gerrits - [GitHub](https://github.com/Dyrits)
